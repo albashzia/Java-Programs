@@ -1,0 +1,24 @@
+public class ReplaceVowels 
+{
+    public static void main(String[] args) 
+  {
+        replace("GitHub is a web-based platform for version control and collaboration that uses Git to host software development projects");
+    }
+    public static void replace(String str) 
+  {
+        String result = "";
+        str = str.toLowerCase();
+        for (int i = 0; i < str.length(); i++) 
+        {
+            if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o' || str.charAt(i) == 'u') 
+            {
+                result = result + "*";
+            }
+          else
+            {
+                result = result + str.charAt(i);
+            }
+        }
+        System.out.println(result);
+    }
+}
