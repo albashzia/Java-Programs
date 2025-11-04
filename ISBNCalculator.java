@@ -24,5 +24,6 @@ public class ISBNCalculator
         {
             System.out.printf("%s%09d%d\n","The ISBN-10 number is ",number,d10);
         }
+        input.close();
     }
 }
