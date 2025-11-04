@@ -12,5 +12,7 @@ public class PalindromeChecker
             System.out.println(num+" is a palindrome");
         else
             System.out.println(num+" is not a palindrome");
+
+        input.close();
     }
 }
