@@ -24,5 +24,6 @@ public class CorrectGuess
         {
             System.out.println("Invalid Guess");
         }
+        input.close();
     }
 }
