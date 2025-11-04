@@ -21,5 +21,6 @@ public class DecimalToBinaryConverter
             }
         }
         System.out.println("Binary value: " + binary);
+        input.close();
     }
 }
