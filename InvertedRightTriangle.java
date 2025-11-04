@@ -14,5 +14,6 @@ public class InvertedRightTriangle
             }
             System.out.println();
         }
+        input.close();
     }
 }
