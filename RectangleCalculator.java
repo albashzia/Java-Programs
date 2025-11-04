@@ -18,5 +18,6 @@ public class RectangleCalculator
         perimeter = 2 * (length + width);
         System.out.println("Area = " + area);
         System.out.println("Perimeter = " + perimeter);
+        console.close();
     }
 }
