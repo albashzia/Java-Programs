@@ -58,5 +58,6 @@ public class RankingNumbers
         System.out.println("Smallest Number is : "+smallest);
         System.out.println("Middlest Number is : "+middlest);
         System.out.println("Largest Number is : "+largest);
+        input.close();
     }   
 }
