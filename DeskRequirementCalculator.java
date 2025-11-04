@@ -1,4 +1,3 @@
-import static java.lang.Math.*;
 import java.util.Scanner;
 public class DeskRequirementCalculator
 {
