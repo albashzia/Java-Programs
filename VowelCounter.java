@@ -24,5 +24,6 @@ public class VowelCounter
             }
         }
         System.out.println("The number of vowels in given string is "+count);
+        input.close();
     }
 }
