@@ -26,5 +26,6 @@ public class PowersOfTwoPyramid
             }
             System.out.println();
         }
+        input.close();
     }
 }
