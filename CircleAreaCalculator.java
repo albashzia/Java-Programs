@@ -9,5 +9,6 @@ public class CircleAreaCalculator
         double radius = input.nextDouble(); 
         double area = radius * radius * PI; 
         System.out.println("The area for the circle of radius " + radius + " is " + area);
+        input.close();
     }   
 }
