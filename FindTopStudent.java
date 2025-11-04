@@ -21,5 +21,6 @@ public class FindTopStudent
             }
         }
         System.out.println("The name of top student is "+topStudent);
+        input.close();
     }
 }
