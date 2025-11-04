@@ -28,5 +28,6 @@ public class PrimeNumberChecker
                 System.out.println(num + " is not a prime number.\nTry again.");
             }
         }
+        input.close();
     }
 }
