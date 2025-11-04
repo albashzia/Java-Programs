@@ -18,5 +18,6 @@ public class InvertedRightJustifiedTriangle
             }
             System.out.println();
         }
+        input.close();
     }
 }
