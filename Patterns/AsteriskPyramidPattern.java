@@ -19,5 +19,6 @@ public class AsteriskPyramidPattern
             }
             System.out.println("");
         }
+        input.close();
     }
 }
