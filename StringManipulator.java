@@ -67,5 +67,6 @@ public class StringManipulator
                     System.out.println("Not a valid choice. Please enter 1–5.");
             }
         }
+        input.close();
     }
 }
