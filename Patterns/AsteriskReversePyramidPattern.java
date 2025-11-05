@@ -19,5 +19,6 @@ public class AsteriskReversePyramidPattern
             }
             System.out.println("");
         }
+        input.close();
     }
 }
