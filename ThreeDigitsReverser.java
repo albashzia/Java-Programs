@@ -14,5 +14,6 @@ public class ThreeDigitsReverser
         System.out.println("The number entered is : "+num);
         System.out.println("The reversed number is : "+reversed);
         System.out.println("The sum is : "+sum);
+        input.close();
     }
 }
