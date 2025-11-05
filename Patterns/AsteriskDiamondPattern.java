@@ -31,5 +31,7 @@ public class AsteriskDiamondPattern
             }
             System.out.println("");
         }
+
+        input.close();
     }
 }
