@@ -22,5 +22,6 @@ public class AsteriskRectangle
             }
             System.out.println("");
         }
+        input.close();
     }
 }
