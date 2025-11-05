@@ -11,5 +11,6 @@ public class TimeConverter
         H = N/60;
         M = N%60;
         System.out.println(H+" "+M);
+        input.close();
     }
 }
