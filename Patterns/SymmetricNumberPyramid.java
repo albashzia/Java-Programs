@@ -1,5 +1,6 @@
+package Patterns;
 import java.util.Scanner;
-public class RightJustifiedTriangle
+public class SymmetricNumberPyramid 
 {
     public static void main(String[] args) 
     {
@@ -10,12 +11,17 @@ public class RightJustifiedTriangle
         {
             for(int j = 1; j <= num - i; j++ )
             {
-                System.out.print("  "); 
+                System.out.print("  ");
             }
-            for (int j = i; j >= 1; j--) {
+            for (int j = i; j >= 2; j--) 
+            {
+                System.out.print(j + " ");
+            }
+            for (int j = 1; j <= i; j++) {
                 System.out.print(j + " ");
             }
             System.out.println();
         }
+        input.close();
     }
 }
