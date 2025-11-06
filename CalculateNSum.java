@@ -14,5 +14,6 @@ public class CalculateNSum
             sum = sum+n;
         }
         System.out.println("The sum is : "+sum);
+        input.close();
     }
 }
