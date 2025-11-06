@@ -12,6 +12,6 @@ public class PrintRangeAtoB
         {
             System.out.println(a);
         }
-            
+        input.close();
     }
 }
