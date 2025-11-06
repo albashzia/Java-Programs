@@ -13,5 +13,6 @@ public class CalculateFactorial
             
         }
         System.out.println("The factorial of "+n+" is "+fact);
+        input.close();
     }
 }
