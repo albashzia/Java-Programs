@@ -1,3 +1,4 @@
+package Loops;
 public class FindPerfectNumbers 
 {
     public static void main(String[] args) 
