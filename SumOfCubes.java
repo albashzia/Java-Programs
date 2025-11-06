@@ -13,5 +13,6 @@ public class SumOfCubes
             sum = sum+c;
         }
         System.out.println("The sum of cubes from 1 to "+N+" is "+sum);
+        input.close();
     }
 }
