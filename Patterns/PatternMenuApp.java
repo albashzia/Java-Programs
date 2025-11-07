@@ -75,5 +75,7 @@ public class PatternMenuApp
             System.out.print("Do you want to print another pattern? (y/n): ");
             again = input.next().charAt(0);
         } while (again == 'y' || again == 'Y');
+
+        input.close();
     }
 }
