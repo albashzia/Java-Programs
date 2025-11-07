@@ -26,5 +26,7 @@ public class SumAverageNInputs
             System.out.printf("The average = %d%n",(sum /counter)); 
         else 
             System.out.println("No input.");  
+
+        console.close();
     } 
 }
