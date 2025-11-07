@@ -16,5 +16,7 @@ public class FindMaxDoWhile
         max = number; 
         }while (number != 0); 
         System.out.println("max is " + max+" and number " + number); 
+
+        input.close();
     } 
 }
