@@ -16,5 +16,7 @@ public class CountEvenNumbers
                 count++;
         }
         System.out.println("The number of even numbers is "+count);
+
+        input.close();
     }
 }
