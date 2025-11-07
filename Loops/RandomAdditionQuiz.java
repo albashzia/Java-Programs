@@ -15,5 +15,7 @@ public class RandomAdditionQuiz
           answer = input.nextInt(); 
         } 
         System.out.println("You got it!"); 
+
+        input.close();
     }
 }
