@@ -30,5 +30,6 @@ public class GuessingGame
                 System.out.println("Your guess is " + "higher than"+ "the number.\n" + "Guess again!");
             }
         }   
+        input.close();
     }
 }
