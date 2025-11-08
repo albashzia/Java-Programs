@@ -25,5 +25,7 @@ public class SalaryDeductionCalculator
         }
         
         System.out.println("The final salary is :"+finalSalary);
+
+        input.close();
     }
 }
