@@ -23,5 +23,6 @@ public class TriangleAngleCalculator
         double C = Math.toDegrees(Math.acos((c * c - b * b - a* a) / (-2 * a * b)));
  
         System.out.println("The three angles are " + Math.round(A* 100) / 100.0 + " , " + Math.round(B * 100) / 100.0 + " and "+ Math.round(C * 100) / 100.0);
+        input.close();
     }
 }
