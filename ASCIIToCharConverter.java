@@ -15,5 +15,7 @@ public class ASCIIToCharConverter
         {
             System.out.println("Invalid ASCII code.");
         }
+
+        input.close();
     }
 }
