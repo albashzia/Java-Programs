@@ -28,5 +28,6 @@ public class SimpleArithmeticCalculator
                 System.out.println("Invalid Operator");
                 break;
         }        
+        input.close();
     }
 }
