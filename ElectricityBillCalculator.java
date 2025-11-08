@@ -26,5 +26,6 @@ public class ElectricityBillCalculator
         
         double totalBill = (unitsConsumed*cost)+200;
         System.out.println("The total bill with added line cost is : "+totalBill);
+        input.close();
     }
 }
