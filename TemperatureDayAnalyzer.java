@@ -22,5 +22,7 @@ public class TemperatureDayAnalyzer
         {
             System.out.println("Cold day");
         }
+
+        input.close();
     }
 }
