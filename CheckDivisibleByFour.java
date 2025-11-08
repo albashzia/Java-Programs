@@ -9,5 +9,7 @@ public class CheckDivisibleByFour
         
         String result = (num%4==0)?"Divisible by 4":"Not divisible by 4";
         System.out.println(result);
+
+        input.close();
     }
 }
