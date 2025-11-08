@@ -29,5 +29,6 @@ public class VowelConsonantChecker
                     break;
             }
         }
+        input.close();
     }
 }
