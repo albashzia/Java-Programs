@@ -5,7 +5,6 @@ public class StringMethodExplorer
         String sentence;
         String str1;
         String str2;
-        String str3;
         int index;
         sentence = "Now is the time for the birthday party";
         System.out.println("sentence = \"" + sentence + "\"");
