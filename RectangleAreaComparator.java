@@ -32,6 +32,6 @@ public class RectangleAreaComparator
         {
             System.out.println("Both rectangles have equal area");
         }
-        
+        input.close();
     }
 }
