@@ -1,3 +1,4 @@
+package Conditionals;
 public class FindSmallerNumber 
 {
     public static void main(String[] args) 
