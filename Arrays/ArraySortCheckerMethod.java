@@ -27,24 +27,25 @@ public class ArraySortCheckerMethod
                 System.out.println("Not sorted");
                 System.out.println("The sorted array is");
                 for (int i = 0; i < n-1; i++) 
-        {
-            for (int j = i+1; j < n; j++) 
-            {
-                if (numbers[j] < numbers[i]) 
                 {
-                    int temp = numbers[i];
-                    numbers[i] = numbers[j];
-                    numbers[j] = temp;
+                    for (int j = i+1; j < n; j++) 
+                    {
+                        if (numbers[j] < numbers[i]) 
+                        {
+                            int temp = numbers[i];
+                            numbers[i] = numbers[j];
+                            numbers[j] = temp;
+                        }
+                    }   
                 }
-            }   
-        }
-        for(int j = 0; j < n; j++)
-        {
-                System.out.print(numbers[j] + " ");
-        }
-            System.out.println();
-        }
+                for(int j = 0; j < n; j++)
+                {
+                    System.out.print(numbers[j] + " ");
+                }
+        System.out.println();
+        input.close();
     }
+}
     
     public static boolean isSorted(int[] list)
     {
