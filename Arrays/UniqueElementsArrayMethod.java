@@ -20,6 +20,7 @@ public class UniqueElementsArrayMethod
             }         
         }
         System.out.println(" ");
+        input.close();
     }
     public static int[] eliminateDuplicates(int[] array)
     {
