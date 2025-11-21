@@ -42,10 +42,10 @@ public class ArraySortCheckerMethod
                 {
                     System.out.print(numbers[j] + " ");
                 }
-        System.out.println();
+            System.out.println();
+            }
         input.close();
     }
-}
     
     public static boolean isSorted(int[] list)
     {
