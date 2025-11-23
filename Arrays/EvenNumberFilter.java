@@ -1,5 +1,3 @@
-package Arrays;
-
 public class EvenNumberFilter 
 {
     public static void main(String[] args) 
