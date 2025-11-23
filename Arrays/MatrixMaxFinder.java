@@ -1,5 +1,3 @@
-package Arrays;
-
 public class MatrixMaxFinder {
     public static void main(String[] args) {
         int[][] matrix = {

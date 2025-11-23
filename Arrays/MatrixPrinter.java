@@ -1,5 +1,3 @@
-package Arrays;
-
 public class MatrixPrinter 
 {
     public static void main(String[] args) 
