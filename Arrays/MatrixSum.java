@@ -1,5 +1,3 @@
-package Arrays;
-
 public class MatrixSum 
 {
     public static void main(String[] args) 
