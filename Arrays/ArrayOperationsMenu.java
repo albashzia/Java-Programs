@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Question9 
+public class ArrayOperationsMenu 
 {
     public static void count(int array[],int x)
     {
