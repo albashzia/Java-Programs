@@ -6,7 +6,7 @@ public class KeywordCounter {
         int count = 0;
         try 
         {
-            File file = new File("D:/Programming/Java/Programs/LabAssignment04/book.txt");
+            File file = new File("book.txt");
             Scanner sc = new Scanner(file);
             while (sc.hasNext()) 
             {
