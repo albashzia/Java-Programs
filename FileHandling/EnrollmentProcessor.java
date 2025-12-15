@@ -4,7 +4,7 @@ public class EnrollmentProcessor
 {
     public static void main(String[] args) 
     {
-        String path = "D:/Programming/Java/Programs/LabAssignment04/enrollment.txt";
+        String path = "enrollment.txt";
         Scanner input = new Scanner(System.in);
         try 
         {
