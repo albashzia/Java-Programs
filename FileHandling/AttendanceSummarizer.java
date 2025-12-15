@@ -4,8 +4,8 @@ public class AttendanceSummarizer
 {
     public static void main(String[] args) 
     {
-        String path = "D:/Programming/Java/Programs/LabAssignment04/attendance.txt";
-        String sumPath = "D:/Programming/Java/Programs/LabAssignment04/attendance_summary.txt";
+        String path = "attendance.txt";
+        String sumPath = "attendance_summary.txt";
         Scanner input = new Scanner(System.in);
         try 
         {
