@@ -8,7 +8,8 @@ public class SafeIntegerAddition
         int a,b;
         boolean validInput = false;
         while(!validInput)
-        {
+        {   
+            //try block to check for invalid inputs
             try
             {
                 System.out.print("Enter 1st value: ");
@@ -18,6 +19,7 @@ public class SafeIntegerAddition
                 System.out.println("The sum is "+(a+b));
                 validInput = true;
             }
+            //catch block to handle invalid inputs
             catch(InputMismatchException e1)
             {
                 System.out.println("You have entered an invalid input, type integers only");
