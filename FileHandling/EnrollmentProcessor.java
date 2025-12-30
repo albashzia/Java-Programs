@@ -42,10 +42,13 @@ public class EnrollmentProcessor
             }
             System.out.println("Enrolled: " + ecount);
             System.out.println("Dropped: " + dcount);
+            ps.close();
+            scanner.close();
         } 
         catch (Exception e) 
         {
             System.out.println("Error reading file");
         }
+        input.close();
     }
 }
