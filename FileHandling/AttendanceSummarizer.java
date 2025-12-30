@@ -37,10 +37,14 @@ public class AttendanceSummarizer
             PrintStream ps2 = new PrintStream(sumPath);
             ps2.println("Present: " + p);
             ps2.println("Absent: " + a);
+            ps.close();
+            ps2.close();
+            scanner.close();
         } 
         catch (Exception e) 
         {
             System.out.println("File error");
         }
+        input.close();
     }
 }
