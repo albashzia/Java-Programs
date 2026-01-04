@@ -20,6 +20,7 @@ public class StudentMarksAnalyzer
                 }
             }
             System.out.println("The number of students with marks greater than 50 in file "+file.getName()+" are "+count);
+            input.close();
         }
         catch(Exception e)
         {
