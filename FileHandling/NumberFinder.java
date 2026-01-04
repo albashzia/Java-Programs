@@ -29,5 +29,6 @@ public class NumberFinder
         {
             System.out.println("Error");
         }
+        input.close();
     }
 }
