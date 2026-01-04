@@ -33,6 +33,8 @@ public class FileUpdater
             temp.renameTo(original);
 
             System.out.println("File Update Successful");
+            input.close();
+            ps.close();
         }
         catch(Exception e)
         {
