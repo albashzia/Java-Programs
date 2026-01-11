@@ -51,6 +51,7 @@ public class ArraysImplementation
         input.close();
     }
 
+    // function to input array elements
     public static int[] Input(int Array[]) 
     {
         int[] array1 = new int[10]; 
@@ -63,6 +64,7 @@ public class ArraysImplementation
         return array1; 
     }
 
+    // function to display array elements
     public static void display(int[] A) 
     {
         for (int j = 0; j < 10; j++) 
@@ -71,6 +73,7 @@ public class ArraysImplementation
         }
     }
 
+    // function to search for an element in the array
     public static void search(int[] array, int x) 
     {
         int flag = 0;
@@ -92,6 +95,7 @@ public class ArraysImplementation
         }
     }
 
+    // function to find the largest element in the array
     public static void largest(int[] array) 
     {
         int k = array[0]; 
@@ -105,6 +109,7 @@ public class ArraysImplementation
         System.out.println("Largest value at A[0] : " + k);
     }
 
+    // function to find the smallest element in the array
     public static void smallest(int[] array) 
     {
         int k = array[9]; 
@@ -117,6 +122,7 @@ public class ArraysImplementation
         System.out.println("Smallest value at A[9] : " + k);
     }
 
+    // function to copy data from one array to another
     public static void copydata(int array1[], int copied[]) 
     {
         for (int j = 0; j < 10; j++) 
