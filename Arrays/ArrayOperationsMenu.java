@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class ArrayOperationsMenu 
 {
+    // function to count occurrences of a specific element in the array
     public static void count(int array[],int x)
     {
         int occurences = 0;
@@ -13,6 +14,8 @@ public class ArrayOperationsMenu
         }
         System.out.println("The occurences of required element in array is "+occurences);
     }
+
+    // function to partition the array around the first element as pivot
     public static void partition(int array[]) 
     {
         int pivot = array[0];  
@@ -39,6 +42,8 @@ public class ArrayOperationsMenu
         }
         System.out.println();
     } 
+
+    // function to count duplicates of each element in the array
     public static void duplicates(int array[])
     {
         System.out.println("Frequencies of all elements:");
@@ -55,6 +60,8 @@ public class ArrayOperationsMenu
             System.out.println(array[i] + " appears " + count + " time");
         }
     }
+
+    // function for circular movement of array elements
     public static void circular(int arr[]) 
     {
         int n = arr.length;
@@ -84,6 +91,8 @@ public class ArrayOperationsMenu
             System.out.println(result[i]+" ");
         }
     }
+
+    // function to shift array elements circularly by two positions
     public static void shiftCircular(int array[]) 
     {
         int n = array.length;
@@ -101,6 +110,8 @@ public class ArrayOperationsMenu
         }
 }
 
+
+    // main method to display menu and perform operations
     public static void main(String[] args) 
     {
         Scanner input = new Scanner(System.in);
