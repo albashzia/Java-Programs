@@ -1,6 +1,8 @@
 import java.util.Scanner;
 public class MatrixColumnSumCalculator
 {
+
+    // function to calculate sum of a specific column in a matrix
     public static double sumColumn(double[][] m, int columnIndex) 
     {
         double sum = 0;
@@ -11,6 +13,7 @@ public class MatrixColumnSumCalculator
         return sum;
     }
 
+    // main method to input matrix and column index, then display the sum
     public static void main(String[] args) 
     {
         Scanner input = new Scanner(System.in);
