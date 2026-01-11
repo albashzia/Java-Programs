@@ -1,6 +1,7 @@
 
 public class ArrayManipulation {
 
+    // function to fill a 2D array with random integers from 0 to 9
     public static int[][] fillArray(int[][] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
@@ -10,6 +11,7 @@ public class ArrayManipulation {
         return arr;
     }
 
+    // function to swap the columns with the maximum and minimum sums
     public static int[][] swapColumns(int[][] arr) {
         int rows = arr.length;
         int cols = arr[0].length;
@@ -43,6 +45,7 @@ public class ArrayManipulation {
         return arr;
     }
 
+    // function to print the 2D array
     public static void printArray(int[][] arr) {
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
@@ -52,6 +55,7 @@ public class ArrayManipulation {
         }
     }
 
+    // main method to test the functions
     public static void main(String[] args) {
         int[][] array = new int[3][3];
         fillArray(array);
