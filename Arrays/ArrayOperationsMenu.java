@@ -152,6 +152,7 @@ public class ArrayOperationsMenu
         {
             shiftCircular(array);
         }
+        input.close();
     }
 }
 
