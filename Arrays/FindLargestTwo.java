@@ -33,5 +33,6 @@ public class FindLargestTwo
         
         System.out.println("The largest number is "+largest);
         System.out.println("The second largest number is "+largest2);
+        input.close();
     }
 }
