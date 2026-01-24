@@ -3,11 +3,11 @@ public class VowelConsonantChecker
 {
         public static void main(String[] args) 
     {
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in); // creating a scanner object
         System.out.print("Enter a single alphabet character: ");
-        char ch = input.next().charAt(0);
+        char ch = input.next().charAt(0); // taking input from the user
 
-        ch = Character.toLowerCase(ch);
+        ch = Character.toLowerCase(ch); // converting input to lower case 
 
         if (ch < 'a' || ch > 'z') 
         {
@@ -29,6 +29,6 @@ public class VowelConsonantChecker
                     break;
             }
         }
-        input.close();
+        input.close(); // closing scanner object
     }
 }
