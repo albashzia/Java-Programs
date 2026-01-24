@@ -29,5 +29,6 @@ public class StudentDataWriter
         {
             System.out.println(e.toString());
         }
+        input.close();
     }
 }
