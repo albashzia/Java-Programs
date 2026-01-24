@@ -37,5 +37,6 @@ class ArraySearchGame
                 input.nextLine();
             }
         }
+        input.close();
     }
 }
