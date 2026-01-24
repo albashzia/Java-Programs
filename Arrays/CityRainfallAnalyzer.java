@@ -33,5 +33,6 @@ public class CityRainfallAnalyzer
             }
         }
         System.out.println("The city with highest rainfall is "+highestRainfallCity);
+        input.close();
     }
 }
