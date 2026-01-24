@@ -41,5 +41,6 @@ public class ArrayInputAndDisplayHandler
                 input.nextLine();
             } 
         }
+        input.close();
     }
 }
