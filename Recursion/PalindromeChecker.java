@@ -1,5 +1,5 @@
 package Recursion;
-
+import java.util.Scanner;
 public class PalindromeChecker {
     public static boolean isPalindrome(String str)
     {
@@ -10,7 +10,9 @@ public class PalindromeChecker {
         return isPalindrome(str.substring(1, str.length() - 1));
     }
     public static void main(String[] args) {
-        String str = "racecar";
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the string/word to check if it is a palindrome: ");
+        String str = input.next();
         boolean result = isPalindrome(str);
         if(result)
             System.out.println("\"" + str + "\" is a palindrome.");     
