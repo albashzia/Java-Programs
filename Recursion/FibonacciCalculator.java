@@ -1,10 +1,15 @@
 package Recursion;
 
-public class FibonacciCalculator 
+import java.util.Scanner;
+
+public class FibonacciCalculator
 {
     public static void main(String[] args) 
     {
-        int result = fib(5);
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a number to calculate factorial of it: ");
+        int n = input.nextInt();
+        int result = fib(n);
         System.out.println(result);
     }
     public static int fib(int n) 
