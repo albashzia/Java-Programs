@@ -15,5 +15,9 @@ public class StringBuilderPractice {
         //inserting at an index shifting already present character forward by 1
         sb.insert(6,' ');
         System.out.println(sb);
+
+        //deleting characters present at any index in the string
+        sb.delete(6,7);
+        System.out.println(sb);
     }
 }
