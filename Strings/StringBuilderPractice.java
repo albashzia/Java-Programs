@@ -7,5 +7,9 @@ public class StringBuilderPractice {
         //printing character at a specific index
         System.out.println(sb.charAt(0));
         System.out.println(sb.charAt(8));
+
+        //changing character at a specific index
+        sb.setCharAt(0,'s');
+        System.out.println(sb);
     }
 }
