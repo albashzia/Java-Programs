@@ -11,5 +11,9 @@ public class StringBuilderPractice {
         //changing character at a specific index
         sb.setCharAt(0,'s');
         System.out.println(sb);
+
+        //inserting at an index shifting already present character forward by 1
+        sb.insert(6,' ');
+        System.out.println(sb);
     }
 }
