@@ -15,6 +15,10 @@ public class ArrayListPractice {
         words[2] = "Laptop";
 
         stringArrayList.addAll(Arrays.asList(words));
+
+        System.out.println(stringArrayList.get(2));
+        stringArrayList.set(2,"Bottle");
+
         for (String e : stringArrayList){
             System.out.println(e);
         }
