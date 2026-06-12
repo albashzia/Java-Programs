@@ -1,6 +1,8 @@
 package DataStructures;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
 
 public class ArrayListPractice {
 
@@ -23,6 +25,9 @@ public class ArrayListPractice {
         stringArrayList.remove("Book");
 
         System.out.println(stringArrayList.size());
+
+        stringArrayList.add("Almonds");
+        Collections.sort(stringArrayList);
 
         for (String e : stringArrayList){
             System.out.println(e);
