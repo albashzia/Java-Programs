@@ -19,6 +19,8 @@ public class ArrayListPractice {
         System.out.println(stringArrayList.get(2));
         stringArrayList.set(2,"Bottle");
 
+        stringArrayList.remove(4);
+
         for (String e : stringArrayList){
             System.out.println(e);
         }
