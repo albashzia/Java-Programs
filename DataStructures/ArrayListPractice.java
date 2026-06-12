@@ -31,6 +31,7 @@ public class ArrayListPractice {
 
         System.out.println(stringArrayList.contains("Almonds"));
 
+        System.out.println(stringArrayList.indexOf("Almonds"));
         for (String e : stringArrayList){
             System.out.println(e);
         }
