@@ -20,6 +20,7 @@ public class ArrayListPractice {
         stringArrayList.set(2,"Bottle");
 
         stringArrayList.remove(4);
+        stringArrayList.remove("Book");
 
         System.out.println(stringArrayList.size());
 
