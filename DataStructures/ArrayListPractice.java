@@ -1,7 +1,6 @@
 package DataStructures;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 
 public class ArrayListPractice {
@@ -35,5 +34,8 @@ public class ArrayListPractice {
         for (String e : stringArrayList){
             System.out.println(e);
         }
+        System.out.println(stringArrayList.isEmpty());
+        stringArrayList.clear();
+        System.out.println(stringArrayList.isEmpty());
     }
 }
