@@ -21,6 +21,8 @@ public class ArrayListPractice {
 
         stringArrayList.remove(4);
 
+        System.out.println(stringArrayList.size());
+
         for (String e : stringArrayList){
             System.out.println(e);
         }
