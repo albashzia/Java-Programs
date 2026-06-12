@@ -7,5 +7,9 @@ public class ArrayListPractice {
         stringArrayList.add("Apple");
         stringArrayList.add(1,"Bag");
 
+
+        for (String e : stringArrayList){
+            System.out.println(e);
+        }
     }
 }
