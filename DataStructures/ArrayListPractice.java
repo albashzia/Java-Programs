@@ -29,6 +29,8 @@ public class ArrayListPractice {
         stringArrayList.add("Almonds");
         Collections.sort(stringArrayList);
 
+        System.out.println(stringArrayList.contains("Almonds"));
+
         for (String e : stringArrayList){
             System.out.println(e);
         }
