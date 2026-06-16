@@ -28,8 +28,12 @@ public class RegexDemo {
         String reg6 = "\\d";
         String text6 = "9";
 
-        Pattern pattern = Pattern.compile(reg6);
-        Matcher matcher = pattern.matcher(text6);
+        // Using (\D), matches a non-digit
+        String reg7 = "\\D";
+        String text7 = "a";
+
+        Pattern pattern = Pattern.compile(reg7);
+        Matcher matcher = pattern.matcher(text7);
 
         boolean result = matcher.matches();
         System.out.println(result);
