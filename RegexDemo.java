@@ -3,11 +3,13 @@ import java.util.regex.Matcher;
 
 public class RegexDemo {
     public static void main(String[] args) {
-        String reg = "";
-        String text = "";
 
-        Pattern pattern = Pattern.compile(reg);
-        Matcher matcher = pattern.matcher(text);
+        // Using (.), matches any character
+        String reg1 = "..";
+        String text1 = "SU";
+
+        Pattern pattern = Pattern.compile(reg1);
+        Matcher matcher = pattern.matcher(text1);
 
         boolean result = matcher.matches();
         System.out.println(result);
