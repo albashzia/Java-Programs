@@ -8,8 +8,12 @@ public class RegexDemo {
         String reg1 = "..";
         String text1 = "SU";
 
-        Pattern pattern = Pattern.compile(reg1);
-        Matcher matcher = pattern.matcher(text1);
+        // Using (\w), matches any alphabet or number
+        String reg2 = "\\w";
+        String text2 = "@";
+
+        Pattern pattern = Pattern.compile(reg2);
+        Matcher matcher = pattern.matcher(text2);
 
         boolean result = matcher.matches();
         System.out.println(result);
