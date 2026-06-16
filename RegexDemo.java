@@ -24,8 +24,12 @@ public class RegexDemo {
         String reg5 = "\\S";
         String text5 = "A";
 
-        Pattern pattern = Pattern.compile(reg5);
-        Matcher matcher = pattern.matcher(text5);
+        // Using (\d), matches a digit
+        String reg6 = "\\d";
+        String text6 = "9";
+
+        Pattern pattern = Pattern.compile(reg6);
+        Matcher matcher = pattern.matcher(text6);
 
         boolean result = matcher.matches();
         System.out.println(result);
