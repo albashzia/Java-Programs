@@ -16,8 +16,12 @@ public class RegexDemo {
         String reg3 = "\\W";
         String text3 = "@";
 
-        Pattern pattern = Pattern.compile(reg3);
-        Matcher matcher = pattern.matcher(text3);
+        // Using (\s), matches a whitespace character
+        String reg4 = "\\s";
+        String text4 = " ";
+
+        Pattern pattern = Pattern.compile(reg4);
+        Matcher matcher = pattern.matcher(text4);
 
         boolean result = matcher.matches();
         System.out.println(result);
