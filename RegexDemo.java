@@ -6,5 +6,10 @@ public class RegexDemo {
         String reg = "";
         String text = "";
 
+        Pattern pattern = Pattern.compile(reg);
+        Matcher matcher = pattern.matcher(text);
+
+        boolean result = matcher.matches();
+        System.out.println(result);
     }
 }
