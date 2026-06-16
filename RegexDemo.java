@@ -20,8 +20,12 @@ public class RegexDemo {
         String reg4 = "\\s";
         String text4 = " ";
 
-        Pattern pattern = Pattern.compile(reg4);
-        Matcher matcher = pattern.matcher(text4);
+        // Using (\S), matches a non-whitespace character
+        String reg5 = "\\S";
+        String text5 = "A";
+
+        Pattern pattern = Pattern.compile(reg5);
+        Matcher matcher = pattern.matcher(text5);
 
         boolean result = matcher.matches();
         System.out.println(result);
