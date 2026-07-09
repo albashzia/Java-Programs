@@ -1,4 +1,6 @@
-public class StringMethodExplorer 
+package Strings;
+
+public class StringMethodExplorer
 {
     public static void main(String[] args) 
     {
