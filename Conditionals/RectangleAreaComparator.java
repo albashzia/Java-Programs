@@ -1,3 +1,5 @@
+package Conditionals;
+
 import java.util.Scanner;
 public class RectangleAreaComparator 
 {
