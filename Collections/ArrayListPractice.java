@@ -16,5 +16,8 @@ public class ArrayListPractice {
         for(int x : list){
             System.out.println(x);
         }
+
+        System.out.println(list.contains(10));
+        System.out.println(list.contains(50));
     }
 }
