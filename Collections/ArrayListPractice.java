@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ArrayListPractice {
@@ -23,6 +24,8 @@ public class ArrayListPractice {
         List<Integer> list1 = List.of(100, 200, 300, 500);
 
         list.addAll(list1);
+
+        Collections.sort(list);
 
         for(int x : list){
             System.out.println(x);
