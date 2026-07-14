@@ -13,11 +13,14 @@ public class ArrayListPractice {
 
         System.out.println(list.get(1));
 
+        System.out.println(list.contains(10));
+        System.out.println(list.contains(50));
+
+        list.add(2,50);
+
         for(int x : list){
             System.out.println(x);
         }
 
-        System.out.println(list.contains(10));
-        System.out.println(list.contains(50));
     }
 }
