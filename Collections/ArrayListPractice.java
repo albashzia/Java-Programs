@@ -11,7 +11,7 @@ public class ArrayListPractice {
         list.add(10);
         list.add(100);
 
-        list.get(1);
+        System.out.println(list.get(1));
 
         for(int x : list){
             System.out.println(x);
