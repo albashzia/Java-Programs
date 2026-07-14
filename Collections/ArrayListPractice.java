@@ -18,6 +18,8 @@ public class ArrayListPractice {
 
         list.add(2,50);
 
+        list.set(3,500);
+
         for(int x : list){
             System.out.println(x);
         }
