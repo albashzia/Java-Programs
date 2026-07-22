@@ -20,4 +20,8 @@ class IntegerComparator implements Comparator<Integer>{
 }
 
 public class ComparatorPractice {
+
+    public static void main(String args[]){
+
+    }
 }
