@@ -8,7 +8,7 @@ class StringLengthComparator implements Comparator<String>{
 
     @Override
     public int compare(String o1, String o2) {
-        return 0;
+        return o2.length() - o1.length();
     }
 }
 
@@ -33,5 +33,16 @@ public class ComparatorPractice {
 
         integers.sort(new IntegerComparator());
         System.out.println(integers);
+
+
+        ArrayList<String> words = new ArrayList<>();
+        words.add("apple");
+        words.add("pineapple");
+        words.add("peach");
+        words.add("guava");
+        words.add("pomegranate");
+
+        words.sort(new StringLengthComparator());
+        System.out.println(words);
     }
 }
