@@ -10,5 +10,14 @@ class StringLengthComparator implements Comparator<String>{
         return 0;
     }
 }
+
+class IntegerComparator implements Comparator<Integer>{
+
+    @Override
+    public int compare(Integer o1, Integer o2) {
+        return 0;
+    }
+}
+
 public class ComparatorPractice {
 }
