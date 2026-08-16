@@ -10,5 +10,13 @@ public class LinkedListPractice {
         integerLinkedList.add(3);
         integerLinkedList.addFirst(0);
         integerLinkedList.addLast(4);
+
+        System.out.println(integerLinkedList);
+
+        System.out.println(integerLinkedList.get(3));
+        System.out.println(integerLinkedList.getLast());
+        integerLinkedList.removeIf(x -> x%2==0);
+        System.out.println(integerLinkedList);
+
     }
 }
