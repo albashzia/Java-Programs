@@ -8,5 +8,7 @@ public class LinkedListPractice {
         integerLinkedList.add(1);
         integerLinkedList.add(2);
         integerLinkedList.add(3);
+        integerLinkedList.addFirst(0);
+        integerLinkedList.addLast(4);
     }
 }
