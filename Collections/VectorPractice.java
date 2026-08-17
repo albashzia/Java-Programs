@@ -20,5 +20,9 @@ public class VectorPractice {
         integers.add(3);
         Vector<Integer> vector1 = new Vector<>(integers);
         System.out.println(vector1);
+
+        for (int i = 0; i < vector.size(); i++){
+            System.out.println(vector.get(i));
+        }
     }
 }
