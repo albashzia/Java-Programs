@@ -1,5 +1,6 @@
 package Collections;
 
+import java.util.LinkedList;
 import java.util.Vector;
 
 public class VectorPractice {
@@ -13,5 +14,11 @@ public class VectorPractice {
         System.out.println(vector.capacity());
         vector.add(1);
         System.out.println(vector.capacity());
+        LinkedList<Integer>  integers = new LinkedList<>();
+        integers.add(1);
+        integers.add(2);
+        integers.add(3);
+        Vector<Integer> vector1 = new Vector<>(integers);
+        System.out.println(vector1);
     }
 }
