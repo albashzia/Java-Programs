@@ -10,14 +10,14 @@ public class StackPractice {
         integerStack.push(3);
         integerStack.push(4);
         integerStack.push(5);
-        System.out.println(integerStack);
+        System.out.println("Stack before operations :"+integerStack);
         integerStack.pop();
-        System.out.println(integerStack);
+        System.out.println("Stack after pop operation :"+integerStack);
 
-        System.out.println(integerStack.peek());
+        System.out.println("Last item of the stack :"+integerStack.peek());
 
-        System.out.println(integerStack.isEmpty());
+        System.out.println("Is stack empty :"+integerStack.isEmpty());
 
-        System.out.println(integerStack.size());
+        System.out.println("Size of the stack :"+integerStack.size());
     }
 }
