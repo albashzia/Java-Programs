@@ -8,5 +8,7 @@ public class StackPractice {
         integerStack.push(1);
         integerStack.push(2);
         System.out.println(integerStack);
+        integerStack.pop();
+        System.out.println(integerStack);
     }
 }
