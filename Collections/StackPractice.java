@@ -15,5 +15,9 @@ public class StackPractice {
         System.out.println(integerStack);
 
         System.out.println(integerStack.peek());
+
+        System.out.println(integerStack.isEmpty());
+
+        System.out.println(integerStack.size());
     }
 }
