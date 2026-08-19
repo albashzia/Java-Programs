@@ -1,6 +1,7 @@
 package Collections;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 public class HashMapPractice {
@@ -21,6 +22,11 @@ public class HashMapPractice {
         Set<Integer> keys = hashMap.keySet();
         for(int i : keys){
             System.out.println(hashMap.get(i));
+        }
+
+        Set<Map.Entry<Integer, String>> entries = hashMap.entrySet();
+        for (Map.Entry<Integer, String> entry : entries) {
+            System.out.println(entry);
         }
     }
 }
