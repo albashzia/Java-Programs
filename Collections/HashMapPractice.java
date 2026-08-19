@@ -11,5 +11,7 @@ public class HashMapPractice {
         hashMap.put(3,"John");
 
         System.out.println(hashMap);
+
+        System.out.println(hashMap.get(2));
     }
 }
