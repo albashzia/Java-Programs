@@ -13,5 +13,8 @@ public class HashMapPractice {
         System.out.println(hashMap);
 
         System.out.println(hashMap.get(2));
+
+        System.out.println(hashMap.containsKey(2));
+        System.out.println(hashMap.containsValue("John"));
     }
 }
