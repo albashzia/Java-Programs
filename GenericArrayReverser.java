@@ -11,4 +11,13 @@ public class GenericArrayReverser {
             right--;
         }
     }
+
+    public static void main(String[] args) {
+        Integer[] numbers = {1, 2, 3, 4, 5};
+        reverseArray(numbers);
+        System.out.print("Reversed array: ");
+        for (int num : numbers) {
+            System.out.print(num + " ");
+        }
+    }
 }
