@@ -32,4 +32,8 @@ class Rectangle extends Shape {
 }
 
 public class GenericShapeAreaCalculator {
+
+    public static <T extends Shape> double calculateArea(T shape){
+        return shape.getArea();
+    }
 }
