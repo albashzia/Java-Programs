@@ -36,4 +36,16 @@ public class GenericShapeAreaCalculator {
     public static <T extends Shape> double calculateArea(T shape){
         return shape.getArea();
     }
+
+    public static void main(String[] args) {
+        Rectangle rectangle = new Rectangle(5, 10);
+        Circle circle = new Circle(7);
+
+        double rectangleArea = calculateArea(rectangle);
+        double circleArea = calculateArea(circle);
+
+        System.out.println(rectangleArea);
+        System.out.println(circleArea);
+
+    }
 }
