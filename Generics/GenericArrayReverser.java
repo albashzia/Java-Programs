@@ -1,3 +1,5 @@
+package Generics;
+
 public class GenericArrayReverser {
 
     public static <T extends Number> void reverseArray(T[] array) {
