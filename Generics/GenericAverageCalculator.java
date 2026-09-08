@@ -1,3 +1,5 @@
+package Generics;
+
 public class GenericAverageCalculator {
     public static <T extends Number> double calculateAverage(T[] array){
         double sum = 0;
