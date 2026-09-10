@@ -1,4 +1,6 @@
-import java.util.*; 
+package Conditionals;
+
+import java.util.*;
 public class OvertimeWageCalculator
 { 
     static Scanner console = new Scanner(System.in); 
