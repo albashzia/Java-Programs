@@ -1,4 +1,6 @@
-import java.util.Scanner; 
+package Calculators;
+
+import java.util.Scanner;
 public class LeapYearCalculator
 { 
 public static void main(String[] args) 

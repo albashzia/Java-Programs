@@ -1,3 +1,5 @@
+package Calculators;
+
 import java.util.Scanner;
 public class SalaryDeductionCalculator
 {
