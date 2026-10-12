@@ -16,6 +16,12 @@ public class StringBuilderPractice {
         sb.insert(6,' ');
         System.out.println(sb);
 
+        //Using append function on StringBuilder object
+        sb.append(" Hello Append Function");
+
+        //Printing the total capacity allocated to the buffer
+        System.out.println(sb.capacity());
+
         //deleting characters present at any index in the string
         sb.delete(6,7);
         System.out.println(sb);
